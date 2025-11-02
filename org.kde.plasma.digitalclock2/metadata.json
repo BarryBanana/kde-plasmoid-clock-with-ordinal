@@ -1,0 +1,29 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mklapetek@kde.org",
+                "Name": "Martin Klapetek"
+                }
+        ],
+        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Digital%20Clock",
+        "Category": "Date and Time",
+        "Description": "Time displayed in a digital format",
+        "FormFactors": [
+            "tablet",
+            "handset",
+            "desktop"
+        ],
+        "Icon": "preferences-system-time",
+        "Id": "org.kde.plasma.digitalclock2",
+        "License": "GPL-2.0+",
+        "Name": "Digital Clock 2",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+
+}
